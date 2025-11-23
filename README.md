@@ -1,4 +1,4 @@
-# 🛡️ SDN Tabanlı Akıllı Güvenlik Duvarı ve L3 Yönlendirici
+🛡️ SDN Tabanlı Akıllı Güvenlik Duvarı ve L3 Yönlendirici
 
 Bu proje, Yazılım Tanımlı Ağlar (SDN) mimarisi kullanılarak geliştirilmiş; paket analizi, statik yönlendirme ve güvenlik duvarı özelliklerine sahip bir ağ kontrolcüsüdür.
 
@@ -26,9 +26,7 @@ Bu projeyi çalıştırmak için **Ubuntu/Linux** üzerinde aşağıdaki araçla
 **Gerekli Kütüphaneler:**
 ```bash
 sudo pip3 install eventlet==0.30.2 networkx
-
-
-Nasıl Çalıştırılır?
+🚀 Nasıl Çalıştırılır?
 Projeyi çalıştırmak için iki ayrı terminal kullanmanız önerilir.
 
 Adım 1: Kontrolcüyü Başlatın (Terminal 1) Önce SDN beynini ayağa kaldırın:
@@ -66,10 +64,3 @@ S1 (Omurga): Veri Merkezi (Serverlar buraya bağlı)
 S2 (Merkez): Merkez Ofis PC'leri (10.0.2.x)
 
 S3 (Şube): Şube Ofis PC'leri (10.0.3.x) - Kısıtlı Erişim
-
-👨‍💻 Geliştirici Notları
-Şu anki sürüm (v1.0) Statik Yönlendirme kullanmaktadır.
-
-Döngüleri (loop) engellemek için port yönlendirmeleri manuel tanımlanmıştır.
-
-Gelecek sürümlerde Dinamik Yönlendirme (Dijkstra) eklenecektir.
